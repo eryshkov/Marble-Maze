@@ -15,6 +15,7 @@
 		5C626CDA21D4C62800E2A042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C626CD921D4C62800E2A042 /* Assets.xcassets */; };
 		5C626CDD21D4C62800E2A042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C626CDB21D4C62800E2A042 /* LaunchScreen.storyboard */; };
 		5C626CE521D4C79D00E2A042 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5C626CE421D4C79D00E2A042 /* level1.txt */; };
+		5C626CE721D4E48900E2A042 /* CollisionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C626CE621D4E48900E2A042 /* CollisionTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5C626CDC21D4C62800E2A042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C626CDE21D4C62800E2A042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C626CE421D4C79D00E2A042 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		5C626CE621D4E48900E2A042 /* CollisionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5C626CE421D4C79D00E2A042 /* level1.txt */,
 				5C626CCC21D4C62200E2A042 /* AppDelegate.swift */,
 				5C626CCE21D4C62200E2A042 /* GameScene.sks */,
+				5C626CE621D4E48900E2A042 /* CollisionTypes.swift */,
 				5C626CD221D4C62200E2A042 /* GameScene.swift */,
 				5C626CD421D4C62200E2A042 /* GameViewController.swift */,
 				5C626CD621D4C62200E2A042 /* Main.storyboard */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C626CE721D4E48900E2A042 /* CollisionTypes.swift in Sources */,
 				5C626CD321D4C62200E2A042 /* GameScene.swift in Sources */,
 				5C626CD521D4C62200E2A042 /* GameViewController.swift in Sources */,
 				5C626CCD21D4C62200E2A042 /* AppDelegate.swift in Sources */,
