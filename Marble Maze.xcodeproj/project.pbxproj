@@ -30,6 +30,8 @@
 		5C626CDE21D4C62800E2A042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C626CE421D4C79D00E2A042 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		5C626CE621D4E48900E2A042 /* CollisionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionTypes.swift; sourceTree = "<group>"; };
+		5C626CE821D54F3000E2A042 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C626CEA21D550BB00E2A042 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,8 @@
 		5C626CC021D4C62200E2A042 = {
 			isa = PBXGroup;
 			children = (
+				5C626CE921D54F3800E2A042 /* screens */,
+				5C626CE821D54F3000E2A042 /* README.md */,
 				5C626CCB21D4C62200E2A042 /* Marble Maze */,
 				5C626CCA21D4C62200E2A042 /* Products */,
 			);
@@ -74,6 +78,14 @@
 				5C626CDE21D4C62800E2A042 /* Info.plist */,
 			);
 			path = "Marble Maze";
+			sourceTree = "<group>";
+		};
+		5C626CE921D54F3800E2A042 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5C626CEA21D550BB00E2A042 /* 1.jpeg */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
